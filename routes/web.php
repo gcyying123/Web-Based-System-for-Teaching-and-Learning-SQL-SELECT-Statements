@@ -12,9 +12,15 @@
 */
 
 Route::group(['middleware' => 'auth'], function () {
+
     Route::get('/', function () {
         return view('welcome');
    });
+
+   Route::resource('/admin', 'Admin\UserController');
+
+   Route::get('/userData', 'Admin\UserController@userData')->name('usertables.data');
+
 });
 
 Auth::routes(['register' => false]);

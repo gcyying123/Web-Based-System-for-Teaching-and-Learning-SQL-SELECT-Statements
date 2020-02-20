@@ -22,7 +22,7 @@
 </div>
 @if($errors->any())
     <div class="login-page-error">
-            Incorrect username or password.
+            Incorrect role, username or password.
     </div>
 @endif
 <div class="login-page">

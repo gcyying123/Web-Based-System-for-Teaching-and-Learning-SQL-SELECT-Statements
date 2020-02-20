@@ -21,9 +21,13 @@
         "sass": "^1.20.1",
         "sass-loader": "^8.0.0",
         "vue": "^2.5.17",
+        "vue-router": "^3.1.5",
         "vue-template-compiler": "^2.6.10"
     },
     "dependencies": {
-        "admin-lte": "^3.0.2"
+        "@fortawesome/fontawesome-free": "^5.12.1",
+        "admin-lte": "^3.0.2",
+        "install": "^0.13.0",
+        "npm": "^6.13.7"
     }
 }
